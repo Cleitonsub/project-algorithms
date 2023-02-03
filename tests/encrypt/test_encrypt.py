@@ -9,7 +9,7 @@ def test_encrypt_message():
         encrypt_message(message, "x")
 
     with pytest.raises(TypeError, match="tipo inválido para message"):
-        encrypt_message(1,2)
+        encrypt_message(1, 2)
 
     assert encrypt_message(message, 2) == "!dlr_oW"
     assert encrypt_message(message, 3) == "roW_!dl"
