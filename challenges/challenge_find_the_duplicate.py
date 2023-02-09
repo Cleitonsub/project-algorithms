@@ -9,5 +9,5 @@ def find_duplicate(nums):
             return False
         elif numbers[index] == numbers[index + 1]:
             return numbers[index]
-    
+
     return False
