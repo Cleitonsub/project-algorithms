@@ -45,4 +45,3 @@ def merge(numbers, start, mid, end):
         else:
             numbers[index] = right[r_index]
             r_index += 1
-
